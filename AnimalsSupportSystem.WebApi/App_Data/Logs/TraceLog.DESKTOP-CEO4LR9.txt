@@ -1,0 +1,60 @@
+2019-01-05 11:56:07,515 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'RequestMapper'
+2019-01-05 11:56:07,520 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'AdoptionRequestCommand' to Medical Invoker.
+2019-01-05 11:56:07,521 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'RequestMapper'
+2019-01-05 11:56:07,521 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'AdoptionRequestCommand' to Medical Invoker.
+2019-01-05 11:56:07,522 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'CleanseAssignmentMapper'
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'AssignToCleanseCommand' to Medical Invoker.
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'CleanseAssignmentMapper'
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'AssignToCleanseCommand' to Medical Invoker.
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'CleanseByAdoptionCenterMapper'
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'CleanseByAdoptionCommand' to Medical Invoker.
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'CleanseByAdoptionCenterMapper'
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'CleanseByAdoptionCommand' to Medical Invoker.
+2019-01-05 11:56:07,523 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'AdoptionCenterMapper'
+2019-01-05 11:56:07,524 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'CreateAdoptionCenterCommand' to Medical Invoker.
+2019-01-05 11:56:07,524 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'CleanseCenterMapper'
+2019-01-05 11:56:07,524 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'CreateCleansingCenterCommand' to Medical Invoker.
+2019-01-05 11:56:07,525 [9] INFO AnimalsSupportSystem.Business.Domain.CommandFactory - Created command of type: 'AnimalsRegisterMapper'
+2019-01-05 11:56:07,525 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Added command of type: 'RegisterAnimalCommand' to Medical Invoker.
+2019-01-05 11:56:08,573 [9] INFO AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand - Adoption Request was saved to the database.
+2019-01-05 11:56:08,573 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Command 'AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand' was executed.
+2019-01-05 11:56:08,576 [9] INFO AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand - Adoption Request was saved to the database.
+2019-01-05 11:56:08,576 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Command 'AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand' was executed.
+2019-01-05 11:56:08,943 [9] INFO AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand - Animals was assigned to the Cleanse center: 'Happy-Cleanse Center' in the database.
+2019-01-05 11:56:08,943 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Command 'AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand' was executed.
+2019-01-05 11:56:08,946 [9] INFO AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand - Animals was assigned to the Cleanse center: 'Animals-Cleanse Center' in the database.
+2019-01-05 11:56:08,946 [9] INFO AnimalsSupportSystem.Business.Domain.MedicalInvoker - Command 'AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand' was executed.
+2019-01-05 11:56:08,947 [9] ERROR AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand - Unable to Cleanse animals by given adoptiob center in the database.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand.Execute() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Commands\CleanseByAdoptionCommand.cs:line 32
+2019-01-05 11:56:08,952 [9] ERROR AnimalsSupportSystem.Business.Domain.MedicalInvoker - Unable to process pending commands.
+System.Exception: Unable to Cleanse animals by given adoptiob center. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand.Execute() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Commands\CleanseByAdoptionCommand.cs:line 32
+   --- End of inner exception stack trace ---
+   at AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand.Execute() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Commands\CleanseByAdoptionCommand.cs:line 48
+   at AnimalsSupportSystem.Business.Domain.MedicalInvoker.<>c.<ProcessPendingCommands>b__6_1(IMedicalCommand command) in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Domain\MedicalInvoker.cs:line 52
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at AnimalsSupportSystem.Business.Domain.MedicalInvoker.ProcessPendingCommands() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Domain\MedicalInvoker.cs:line 48
+ workspace: ancoraDocsWorkspace
+   application: uploader-app
+   library: security
+   library: batch
+   
+   
+   mono repo
+   
+   how to create new component inside the libs folder with command
+   ng g component messageMox --project=component-kit --export
+   
+   then in app.module.ts add
+   import { ComponentKitModule } from '@ancoraDocsWorkspace/component-kit';
+   
+   imports: [ComponentKitModule]
+   
+   app.component.html
+   
+   <app-message-box></app-message-box>
+   
+-------------------------------------------------------------
+
+   ng g ngrx app --module=apps/client/src/app/app.module.ts --root

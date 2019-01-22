@@ -1,0 +1,17 @@
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\AnimalsSupportSystem.Business.dll.config
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\AnimalsSupportSystem.Business.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\AnimalsSupportSystem.Business.pdb
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\AnimalsSupportSystem.Infrastucture.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\EntityFramework.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\log4net.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\AnimalsSupportSystem.Infrastucture.pdb
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\AnimalsSupportSystem.Infrastucture.dll.config
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\EntityFramework.xml
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\bin\Debug\log4net.xml
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\obj\Debug\AnimalsSupportSystem.Business.csprojAssemblyReference.cache
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\obj\Debug\AnimalsSupportSystem.Business.csproj.CoreCompileInputs.cache
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\obj\Debug\AnimalsSupportSystem.Business.csproj.CopyComplete
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\obj\Debug\AnimalsSupportSystem.Business.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\obj\Debug\AnimalsSupportSystem.Business.pdb

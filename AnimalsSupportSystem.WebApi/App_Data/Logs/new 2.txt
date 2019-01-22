@@ -1,0 +1,21 @@
+
+
+   
+   0. change getSession data    to property sessionData$: Observable<SessionData>
+   1. change get accesssToken to proeprty accessToken$: Obervable<string>
+   3. Integrate bootstrap 
+   2. add error handling in login component:
+        - Display login failure in label near bottom of form "Login failed". 
+        - Change collor of form inputs to inidcate error (add/remove class).
+   3. Research event bus vs. ngrx and evaluate cons/pros
+   4. Install and research on soureceTree
+   5. add checkbox remeber me
+     
+   if rememebrMe is true
+      store data to the Local storage
+   else
+      store data to the session storage
+   
+   
+   
+    

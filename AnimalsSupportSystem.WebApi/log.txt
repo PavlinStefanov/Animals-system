@@ -1,0 +1,37 @@
+2019-01-05 11:50:07,178 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'RequestMapper'
+2019-01-05 11:50:07,191 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'AdoptionRequestCommand' to Medical Invoker.
+2019-01-05 11:50:07,191 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'RequestMapper'
+2019-01-05 11:50:07,191 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'AdoptionRequestCommand' to Medical Invoker.
+2019-01-05 11:50:07,192 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'CleanseAssignmentMapper'
+2019-01-05 11:50:07,192 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'AssignToCleanseCommand' to Medical Invoker.
+2019-01-05 11:50:07,192 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'CleanseAssignmentMapper'
+2019-01-05 11:50:07,192 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'AssignToCleanseCommand' to Medical Invoker.
+2019-01-05 11:50:07,193 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'CleanseByAdoptionCenterMapper'
+2019-01-05 11:50:07,193 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'CleanseByAdoptionCommand' to Medical Invoker.
+2019-01-05 11:50:07,193 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'CleanseByAdoptionCenterMapper'
+2019-01-05 11:50:07,193 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'CleanseByAdoptionCommand' to Medical Invoker.
+2019-01-05 11:50:07,194 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'AdoptionCenterMapper'
+2019-01-05 11:50:07,194 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'CreateAdoptionCenterCommand' to Medical Invoker.
+2019-01-05 11:50:07,195 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'CleanseCenterMapper'
+2019-01-05 11:50:07,195 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'CreateCleansingCenterCommand' to Medical Invoker.
+2019-01-05 11:50:07,195 [9] INFO  AnimalsSupportSystem.Business.Domain.CommandFactory [(null)] - Created command of type: 'AnimalsRegisterMapper'
+2019-01-05 11:50:07,196 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Added command of type: 'RegisterAnimalCommand' to Medical Invoker.
+2019-01-05 11:50:08,225 [9] INFO  AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand [(null)] - Adoption Request was saved to the database.
+2019-01-05 11:50:08,225 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Command 'AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand' was executed.
+2019-01-05 11:50:08,228 [9] INFO  AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand [(null)] - Adoption Request was saved to the database.
+2019-01-05 11:50:08,228 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Command 'AnimalsSupportSystem.Business.Commands.AdoptionRequestCommand' was executed.
+2019-01-05 11:50:08,617 [9] INFO  AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand [(null)] - Animals was assigned to the Cleanse center: 'Happy-Cleanse Center' in the database.
+2019-01-05 11:50:08,617 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Command 'AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand' was executed.
+2019-01-05 11:50:08,620 [9] INFO  AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand [(null)] - Animals was assigned to the Cleanse center: 'Animals-Cleanse Center' in the database.
+2019-01-05 11:50:08,620 [9] INFO  AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Command 'AnimalsSupportSystem.Business.Commands.AssignToCleanseCommand' was executed.
+2019-01-05 11:50:08,622 [9] ERROR AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand [(null)] - Unable to Cleanse animals by given adoptiob center in the database.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand.Execute() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Commands\CleanseByAdoptionCommand.cs:line 32
+2019-01-05 11:50:08,630 [9] ERROR AnimalsSupportSystem.Business.Domain.MedicalInvoker [(null)] - Unable to process pending commands.
+System.Exception: Unable to Cleanse animals by given adoptiob center. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand.Execute() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Commands\CleanseByAdoptionCommand.cs:line 32
+   --- End of inner exception stack trace ---
+   at AnimalsSupportSystem.Business.Commands.CleanseByAdoptionCommand.Execute() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Commands\CleanseByAdoptionCommand.cs:line 48
+   at AnimalsSupportSystem.Business.Domain.MedicalInvoker.<>c.<ProcessPendingCommands>b__6_1(IMedicalCommand command) in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Domain\MedicalInvoker.cs:line 52
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at AnimalsSupportSystem.Business.Domain.MedicalInvoker.ProcessPendingCommands() in C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Business\Domain\MedicalInvoker.cs:line 48

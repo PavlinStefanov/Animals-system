@@ -1,0 +1,14 @@
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\bin\Debug\AnimalsSupportSystem.Infrastucture.dll.config
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\bin\Debug\AnimalsSupportSystem.Infrastucture.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\bin\Debug\AnimalsSupportSystem.Infrastucture.pdb
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\bin\Debug\EntityFramework.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\bin\Debug\EntityFramework.xml
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\obj\Debug\AnimalsSupportSystem.Infrastucture.csprojAssemblyReference.cache
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\obj\Debug\AnimalsSupportSystem.Infrastucture.Migrations.Initial.resources
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\obj\Debug\AnimalsSupportSystem.Infrastucture.csproj.GenerateResource.cache
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\obj\Debug\AnimalsSupportSystem.Infrastucture.csproj.CoreCompileInputs.cache
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\obj\Debug\AnimalsSupportSystem.Infrastucture.csproj.CopyComplete
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\obj\Debug\AnimalsSupportSystem.Infrastucture.dll
+C:\Users\Pavlin\Source\Repos\AnimalsSupportSystem\AnimalsSupportSystem.Infrastucture\obj\Debug\AnimalsSupportSystem.Infrastucture.pdb
